@@ -1,35 +1,21 @@
 {
   "name": "smart-health-prediction",
   "version": "1.0.0",
-  "private": true,
+  // 1. ADD YOUR HOMEPAGE URL HERE
+  "homepage": "https://aryashubh001.github.io/Smart-Health-disease-prediction-system/", 
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",   <-- 2. ADD THIS LINE
+    "deploy": "gh-pages -d dist"    <-- 3. ADD THIS LINE
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "motion": "^10.17.0",
-    "lucide-react": "^0.309.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.0",
-    "@radix-ui/react-label": "^2.0.2",
-    "@radix-ui/react-slot": "^1.0.2",
-    "@radix-ui/react-progress": "^1.0.3"
+    // ...
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^4.0.0-alpha.12",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "gh-pages": "^6.1.1", <--- Confirmed by your install
+    // ...
   }
 }
