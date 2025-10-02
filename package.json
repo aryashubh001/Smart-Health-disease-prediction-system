@@ -1,15 +1,14 @@
 {
   "name": "smart-health-prediction",
   "version": "1.0.0",
-  // 1. ADD YOUR HOMEPAGE URL HERE
   "homepage": "https://aryashubh001.github.io/Smart-Health-disease-prediction-system/", 
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",   <-- 2. ADD THIS LINE
-    "deploy": "gh-pages -d dist"    <-- 3. ADD THIS LINE
+    "predeploy": "npm run build",   
+    "deploy": "gh-pages -d dist"   
   },
   "dependencies": {
     // ...
@@ -19,3 +18,4 @@
     // ...
   }
 }
+
