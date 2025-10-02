@@ -11,11 +11,10 @@
     "deploy": "gh-pages -d dist"   
   },
   "dependencies": {
-    // ...
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1", <--- Confirmed by your install
-    // ...
+    "gh-pages": "^6.1.1"
   }
 }
+
 
