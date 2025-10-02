@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script type="text/javascript">
+    // Get the current path (e.g., /Smart-Health-disease-prediction-system/predict)
+    var path = window.location.pathname;
+    
+    // Check if we are already at index.html to avoid infinite redirect
+    if (!path.endsWith('index.html') && !path.endsWith('/')) {
+        // Construct the correct URL, forcing the browser to load index.html
+        // The path will remain in the URL, allowing your React App.tsx to handle it.
+        window.location.replace(
+            window.location.protocol + "//" + window.location.host + 
+            "/Smart-Health-disease-prediction-system/index.html"
+        );
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
